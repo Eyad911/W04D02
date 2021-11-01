@@ -1,0 +1,41 @@
+.todolistDiv{
+    
+    gap: 100px;
+     background-color: gray;
+     margin: 0.2rem auto;
+     padding: 5px;
+     border-radius: 10px;
+ 
+ }
+ 
+ .todoList{
+     width: 100%;
+    display: flex;
+    gap: 200px;
+    /* justify-content: space-around; */
+    /* background-color: gray; */
+ }
+ .todoName{
+     font-family: 'Times New Roman', Times, serif;
+     font-style: bold;
+ }
+ 
+ .todoClose{
+ 
+     /* color: red; */
+     cursor: pointer;
+ }
+ 
+ .todoClose:hover{
+ 
+     color: red;
+ }
+
+ .todoedit:hover{
+
+    cursor: pointer;
+    color: red;
+ }
+
+
+ 
